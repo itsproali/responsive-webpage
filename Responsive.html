@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML 5, Responsive Web Design">
+    <title>Responsive Web Page</title>
+    <link rel="icon" href="img/cox's-bazar-1.jpg">
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            overflow: auto;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .menu a{
+            padding: 15px; 
+            text-align: center;
+            border-bottom: 1px solid gray;
+            display: block;
+            text-decoration: none;
+            color: black;
+        
+        }
+        .menu a:hover{
+            color: white;
+            background-color: darkred;
+        }
+        .main{
+            float: left;
+            width: 60%;
+        }
+        .main h1{
+            text-align: center;
+            color: darkred;
+        }
+        .main p{
+            padding: 10px;
+            text-align: justify;
+        }
+        .main img{
+            padding: 10px;
+            width: 100%;
+            height: auto;
+        }
+        .right{
+            float: right;
+            width: 20%;
+            margin-top: 157px;
+            padding: 7px;
+            background-color: rgba(0, 132, 255, 0.527);
+
+        }
+        
+        .footer{
+            width: 100%;
+            display: inline-block;
+            margin: 17px 0 0 0;
+            
+        }
+        .footer p{
+            text-align: center;
+            padding: 15px;
+            color: white;
+            background-color: rgb(44, 44, 51);
+            margin: 0px;
+        
+        }
+        .footer a{
+            color: tomato;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width:500px) {
+            .menu, .main, .right {
+                width: 100%;
+            }
+            .right {
+                margin-top: 0px;
+                padding: 10px;
+            }
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="menu">
+    
+            <a href="#">Cox's Bazar</a>
+            <a href="http://www.coxsbazartours.com/category/transportation/" target="_blank">Transport</a>
+            <a href="history.html">History</a>
+            <a href="https://www.gettyimages.com/photos/cox-bazar-sea-beach" target="_blank">Gallery</a>
+            <a href="https://www.google.com/travel/hotels?hl=en-BD&gl=bd&authuser=0&gsas=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESABpWCjgSNDIlMHgzMGFkYzdlYTJhYjkyOGMzOjB4M2I1MzllMGE2ODk3MDgxMDoLQ294J3MgQmF6YXIaABIaEhQKBwjlDxALGBsSBwjlDxALGBwYATICEAAqCwoHKAE6A0JEVBoA&rp=eJeH2bmiu7HZpQF4zciRjuWfpPzrAXjR8MLTxLbD9Gd43vOD8aS8kcoweJ_Cn6LWpvmyhQE4AQ&ap=MAA&destination=Cox%27s%20Bazar&ved=0CAAQ5JsGahcKEwjYkNe64aj0AhUAAAAAHQAAAAAQEg" target="_blank">Hotels</a>
+            <a href="https://goo.gl/maps/gb1BuKhuQAkMLRto9" target="_blank">Map</a>
+        
+    </div>   
+    
+    <div class="main">
+        <h1>Cox's Bazar</h1>
+        <p>Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.</p>
+
+        <img src="img/cox's-bazar-0.jpg" alt="Cox's Bazar">
+    </div>
+
+    <div class="right">
+        <h2>What?</h2>
+        <p>Cox’s Bazar is a town on the southeast coast of Bangladesh.</p> 
+        
+        <h2>Where?</h2>
+        <p>It is situated along the Bay of Bengal about 60 miles (100 km) south of Chittagong.</p>
+
+        <h2>Why it's popular?</h2>
+        <p>Cox's Bazar has a sea beach. For that reason it's so popular.</p>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; All right reserved 2021 | <a href="https://www.facebook.com/itsproali" target="_blank">Mohammad Ali</a></p>
+    </div>
+
+
+
+
+</body>
+</html>
